@@ -21,4 +21,16 @@ var name = ['farabi', 'mir', 'safayet', 'mamun', 'sobuj', 'shahjalal', 'mir', 'f
 
 // using set() we can remove duplicate name from an array
 let uniqueName = [...new Set(name)];
-console.log(uniqueName);
+// console.log(uniqueName);
+
+
+/* best way to uniqueness element from an array */
+
+let uniqueArray = [];
+name.forEach((element) => {
+    if (!uniqueArray.includes(element)) {
+        uniqueArray.push(element);
+    }
+});
+
+console.log(uniqueArray);
