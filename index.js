@@ -15,4 +15,10 @@ for (element of funBox) {
         newFunBox.push(element);
     }
 }
-console.log(newFunBox);
+// console.log(newFunBox);
+
+var name = ['farabi', 'mir', 'safayet', 'mamun', 'sobuj', 'shahjalal', 'mir', 'farabi'];
+
+// using set() we can remove duplicate name from an array
+let uniqueName = [...new Set(name)];
+console.log(uniqueName);
