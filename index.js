@@ -33,4 +33,15 @@ name.forEach((element) => {
     }
 });
 
-console.log(uniqueArray);
+// console.log(uniqueArray);
+
+// agin try to  make unique array
+
+let uniqueCall = [];
+name.forEach((item) => {
+    if (!uniqueCall.includes(item)) {
+        uniqueCall.push(item)
+    }
+})
+console.log(uniqueCall);
+
