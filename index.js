@@ -43,5 +43,17 @@ name.forEach((item) => {
         uniqueCall.push(item)
     }
 })
-console.log(uniqueCall);
+// console.log(uniqueCall);
 
+
+/*  when we use only single equal, it counts as assignment operator, When we use double equal, it counts as comparison operator.  */
+x = 101;
+
+if (x == 1) {
+    massage = "Orange Toolz"
+}
+x = 0;
+if (x == 0) {
+    massage = "My offer 360 degree"
+}
+console.log(massage);
